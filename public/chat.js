@@ -1,6 +1,6 @@
 // Make connection
 
-const port = process.env.PORT || 4000  ;
+// const port = process.env.PORT || 4000  ;
 
 // var PORT1 = 'http://localhost:'+port;
 var PORT1 = 'https://dry-atoll-35568.herokuapp.com/';
