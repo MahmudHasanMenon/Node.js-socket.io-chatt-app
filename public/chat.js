@@ -1,5 +1,10 @@
 // Make connection
-var socket = io.connect('http://localhost:4000');
+
+const port = process.env.PORT || 4000  ;
+
+var PORT1 = 'http://localhost:'+port;
+
+var socket = io.connect(PORT1);
 
 // Query DOM
 var message = document.getElementById('message'),
